@@ -1,0 +1,18 @@
+{
+    "Name"      : "Debug",
+    "Version"   : "1.0.0",
+    "Author"    : "SSStormy",
+    "Contact"   : "id/SSStormy",
+    "Website"   : "steamcommunity.com/id/SSStormy",
+    
+    "LoadBuffer":
+    {
+        "Post":
+        [
+            {
+                "Key": "@scripts/game_state/state_ingame.lua",
+                "Value": "chateval.lua"
+            }
+        ]
+    }
+}

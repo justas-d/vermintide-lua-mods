@@ -1,0 +1,18 @@
+{
+    "Name"      : "Intro skip",
+    "Version"   : "1.0.0",
+    "Author"    : "SSStormy",
+    "Contact"   : "id/SSStormy",
+    "Website"   : "steamcommunity.com/id/SSStormy",
+
+    "Require": 
+    {
+        "Post":
+        [
+            {
+                "Key": "scripts/ui/views/splash_view",
+                "Value": "nointro.lua" 
+            }
+        ]
+    }
+}
